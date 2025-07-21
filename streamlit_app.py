@@ -30,7 +30,7 @@ if st.button("Predict"):
     st.success(f"Predicted Iris species: **{pred_class}**")
 
 # Visualization
-st.subheader("📊 Feature Distributions")
+st.subheader("Feature Distributions")
 df = pd.DataFrame(iris.data, columns=iris.feature_names)
 df['species'] = iris.target
 
